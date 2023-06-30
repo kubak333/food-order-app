@@ -1,0 +1,13 @@
+.logo {
+    min-width: fit-content;
+}
+
+.logo img {
+    width: 6rem;
+}
+
+.logo p {
+    font-size: 0.75rem;
+    padding-top: 0.2rem;
+    
+}

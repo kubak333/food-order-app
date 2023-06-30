@@ -1,0 +1,67 @@
+.item {
+    width: 150px;
+    padding: 0 0.8rem 0.8rem 0.8rem;
+    background-color: rgb(232, 232, 232);
+    border-radius: 30px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.item img {
+    margin-top: -3.5rem;
+    height: 130px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.item-foot_desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.item-head_desc p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.item-head_desc {
+    text-align: left;
+    flex: 1;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.head_desc-name {
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+
+}
+
+.head_desc-restaurant-name {
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+
+}
+
+.head_desc-info {
+    font-size: 0.8rem;
+    color: rgb(78, 78, 78);
+}
+
+.foot_desc-price {
+    font-weight: 700;
+}
+
+
+
+
+

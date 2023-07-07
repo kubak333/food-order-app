@@ -8,7 +8,9 @@ const EmptyCart = () => {
   return (
     <div className='emptyCart'>
         <img src={emptyCartImg} alt="empty" />
-        <button onClick={navigate('/')}><i className='fas fa-long-arrow-alt-left'></i>Shop now</button>
+        <button onClick={() => navigate('/')}>
+          <i className='fas fa-long-arrow-alt-left'></i>Shop now
+        </button>
 
     </div>
   )

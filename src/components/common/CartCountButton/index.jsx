@@ -1,5 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+import { selectCartItemsCount } from '../../../redux/cart/cart.selector';
 import './styles.css'
 
 const CartCountButton = ({ cartCount }) => {
@@ -9,8 +12,12 @@ const CartCountButton = ({ cartCount }) => {
         <div className='count'>{cartCount >= 100 ? '99+' : cartCount}</div>
         <i className='fas fa-shopping-cart'></i>
     </div>
-  )
-}
+  );
+};
 
-export default CartCountButton;
+const mapStateToProps = createStructuredSelector({
+  cartCount: selectCartItemsCount,
+});
+
+export default connect (mapStateToProps) (CartCountButton);
 

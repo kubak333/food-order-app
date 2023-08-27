@@ -1,3 +1,8 @@
+import shoyu from "../../../../src/images/ramen.jpeg"
+import shio from "../../../../src/images/shio.jpg"
+import miso from "../../../../src/images/miso.jpg"
+import tonkotsu from "../../../../src/images/tonkotsu.jpg"
+
 export const menuItemsData = [
 
 {
@@ -6,7 +11,7 @@ export const menuItemsData = [
     info: "classic ramen prepared on a pork bone",
     restaurantName: "House of Ramen",
     price: 33,
-    img: '/images/ramen.jpeg',
+    img: shoyu,
 },
 
 {
@@ -15,7 +20,7 @@ export const menuItemsData = [
     info: "the most delicate, creamy ramen",
     restaurantName: "House of Ramen",
     price: 41,
-    img: '/images/shio.jpg',
+    img: shio,
 },
 
 {
@@ -24,7 +29,7 @@ export const menuItemsData = [
     info: "seasoned with miso paste",
     restaurantName: "House of Ramen",
     price: 35,
-    img: '/images/miso.jpg',
+    img: miso,
 },
 
 {
@@ -33,7 +38,7 @@ export const menuItemsData = [
     info: "based on pork bones with a milky color",
     restaurantName: "House of Ramen",
     price: 32,
-    img: '/images/tonkotsu.jpg',
+    img: tonkotsu,
 },
 
 {
@@ -42,7 +47,7 @@ export const menuItemsData = [
     info: "classic ramen prepared on a pork bone",
     restaurantName: "Papa Ramen",
     price: 46,
-    img: '/images/ramen.jpeg',
+    img: shoyu,
 },
 
 {
@@ -51,7 +56,7 @@ export const menuItemsData = [
     info: "the most delicate, creamy ramen",
     restaurantName: "Papa Ramen",
     price: 48,
-    img: '/images/shio.jpg',
+    img: shio,
 },
 
 {
@@ -60,7 +65,7 @@ export const menuItemsData = [
     info: "seasoned with miso paste",
     restaurantName: "Papa Ramen",
     price: 51,
-    img: '/images/miso.jpg',
+    img: miso,
 },
 
 {
@@ -69,7 +74,7 @@ export const menuItemsData = [
     info: " based on pork bones with a milky color",
     restaurantName: "Papa Ramen",
     price: 45,
-    img: '/images/tonkotsu.jpg',
+    img: tonkotsu,
 },
 
 {
@@ -78,7 +83,7 @@ export const menuItemsData = [
     info: "classic ramen prepared on a pork bone",
     restaurantName: "Ramenovo",
     price: 29,
-    img: '/images/ramen.jpeg',
+    img: shoyu,
 },
 
 {
@@ -87,7 +92,7 @@ export const menuItemsData = [
     info: "the most delicate, creamy ramen",
     restaurantName: "Ramenovo",
     price: 33,
-    img: '/images/shio.jpg',
+    img: shio,
 },
 
 {
@@ -96,7 +101,7 @@ export const menuItemsData = [
     info: "seasoned with miso paste",
     restaurantName: "Ramenovo",
     price: 28,
-    img: '/images/miso.jpg',
+    img: miso,
 },
 
 {
@@ -105,5 +110,5 @@ export const menuItemsData = [
     info: "based on pork bones with a milky color",
     restaurantName: "Ramenovo",
     price: 40,
-    img: '/images/tonkotsu.jpg',
+    img: tonkotsu,
 },]

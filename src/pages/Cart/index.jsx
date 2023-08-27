@@ -22,7 +22,8 @@ const Cart = ({ cartCount, cartList, cartTotal}) =>
             <div className="orders-menu">
                 <Menu list={cartList}/>
             </div>
-            <h3 className="orders-total">Your total: {cartTotal} PLN</h3>
+            <h3 className="orders-total">Your total: {cartTotal} PLN<button class="payment-button" onClick={() => alert("This is a project created to learn programming.\n\nThe target project here would include an address form and a redirect to a payment gateway. \n\nIn the present version, the button is disabled.")}>Go to payment</button></h3>
+            
           </div>
     )}
         <Footer/>

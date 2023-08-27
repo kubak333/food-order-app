@@ -5,7 +5,7 @@ import './styles.css'
 const Footer = () => {
   return (
     <footer>
-        <p>We're team of blah blah who are exited to zmienic to..... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, reprehenderit sapiente. Nesciunt eaque suscipit doloribus odio voluptatem saepe, non dolores blanditiis ut ex aliquid quibusdam voluptas adipisci maiores at exercitationem?</p>
+        <p>Ramen lovers was created to bring together the best ramen from your city in one app. You pay for one delivery from several places - the best ramen shops.</p>
         <Logo />
     </footer>
   )
